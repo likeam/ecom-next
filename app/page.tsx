@@ -1,7 +1,10 @@
-import React from "react";
 import { Button } from "@/components/ui/button";
+import{ stripe} from "@/lib/strip";
 
-const Home = () => {
+const Home = async () => {
+  const products = await stripe.products.list({
+    expand: 
+  })
   return (
     <div>
       <h1>Home</h1>
