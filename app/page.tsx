@@ -44,7 +44,7 @@ const Home = async () => {
         </div>
       </section>
       <section className=" py-8">
-        <Carousel />
+        <Carousel products={products.data} />
       </section>
     </div>
   );
