@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import Stripe from "stripe";
 import ProductCard from "./product-card";
-import { Key } from "lucide-react";
 
 interface Props {
   products: Stripe.Product[];
